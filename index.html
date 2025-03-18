@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulação de Listas com JavaScript</title>
+    <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="tela">
 
-    <h2>Lista de Tarefas</h2>
-    <input type="text" id="inputItem" placeholder="Digite uma tarefa">
-    <button onclick="addItem()">Adicionar</button>
-    
-    <ul id="lista"></ul>
+            <h1 class="titulo">Login</h1>
+            <input type="text" class="campos-texto" placeholder="Digite seu e-mail...">
+            <input type="password" class="campos-texto" placeholder="Digite sua senha...">
 
-
-    <button onclick="limparLista()">🗑️ Limpar Lista</button>
-    <button onclick="contarItens()">📊 Contar Itens</button>
-
-    <script src="./teste.js"></script>
+            <div class="container-botao">
+                <div>
+                    <button class="botao">Entrar</button>
+                </div>
+                <div class="linha-icones">
+                    <span class="icone">G</span>
+                    <span class="icone">I</span>
+                    <span class="icone">GH</span>
+                </div>
+                <div class="links">Cadastre-se</div>
+                <div class="links">Esqueci a senha</div>
+            </div>
+        </div>
+       
+    </div>
 </body>
 </html>
